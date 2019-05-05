@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма входа</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/ajax.js">
+    </script>
+</head>
+<body>
+<div id="login">
+        <div class="clearfix">
+            <p><span class="fontawesome-user"></span><input type="text" placeholder="Логин" name="username" id="username" required></p>
+            <p><span class="fontawesome-lock"></span><input type="password"  value="password" name="password" id="password" onFocus="if(this.value == 'password') this.value = ''" required></p>
+            <p><input type="submit" name="submit" id="submit" value="ВОЙТИ"></p>
+        </div>
+    <p>Нет аккаунта? &nbsp;&nbsp;<a href="#">Регистрация</a><span class="fontawesome-arrow-right"></span></p>
+</div>
+<h1 id="res" align="center"></h1>
+</body>
+</html>
